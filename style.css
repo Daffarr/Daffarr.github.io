@@ -1,0 +1,134 @@
+/* Body Keseluruhan */
+body{
+    background-color: black;
+}
+
+/* Header bagian Navigasi */
+header{
+    background-color: rgb(0, 0, 0);
+    /* opacity: 90%; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    margin-bottom: 10px;
+    z-index: 10;
+}
+
+/* Gambar Logo Heading */
+header a img{
+    width: 80px;
+    padding: auto;
+    float: left;
+}
+
+nav ul{
+    float: center;
+    margin: auto;
+    padding: 10px;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 40px;
+    font-size: 20px;
+    padding: 10px 24px;
+}
+
+nav li a:after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0px;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+nav li a:hover:after {
+    width: 100%;
+    background: #ffffff;
+}
+
+.header-big{
+    color:black;
+    background-color: #ffffff;
+    text-align: center;
+    top: 50%;
+    left: 10%;
+    position: absolute;
+}
+
+#main-content{
+    color: white;
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer-choose{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+.footer-choose img{
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.footer-choose .bottom{
+    display: inline-block;
+}
+
+.footer-choose .bottom .kotak ul{
+    text-align: left;
+}
+
+.footer-choose .bottom .kotak ul li{
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 100px;
+}
+
+.footer-choose .bottom .kotak a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-choose .bottom .kotak a::after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0px;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+.footer-choose .bottom .kotak a:hover::after{
+    width: 100%;
+    background: #ffffff;
+}
+
+.Hero img{
+    width: 100%;
+}
+
+.copyright{
+    color: white;
+    text-align: center;
+}
+
+.fa {
+    margin-right: 5px;
+}

@@ -64,7 +64,7 @@ nav li a:hover:after {
 .home{
   height: 100vh;
   margin-top: 100px;
-  background-image: url('../Images/kisspng-smoothie-fruit-vegetable-eating-5af530e6067317.1135524415260182780264.png');
+  background-image: url('../images/nutrition.png');
   background-size: cover;
   padding:15px;
   -webkit-display: flex;
